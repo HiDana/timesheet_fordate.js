@@ -9,6 +9,7 @@ The repo [timesheet.js](https://github.com/sbstjn/timesheet.js)'s time is just s
 ## how to use
 
 Reference original code
+
 You have to include `/dist/timesheet.min.js` and `./dist/timesheet.min.css` in your HTML and initialize it.
 
 ```
@@ -101,9 +102,11 @@ If your date without day number it will start the first day of this month or thi
 example:
 
 if your date is start or end "2019/02" .The line will display "2019/02/01"
+
 ![date only with year and month](https://github.com/HiDana/timesheet_fordate.js/blob/master/example/images/untilMonth.png)
 
 if your date is start or end "2019" .The line will display "2019/01/01"
+
 ![date only with](https://github.com/HiDana/timesheet_fordate.js/blob/master/example/images/untilYear.png)
 
 ### date to date
@@ -173,8 +176,11 @@ Because the width of the month is very small. You would be not to see the obviou
 ## todo in the future
 
 - Support auto update category and different color
+
   We only have four categories "lorem"、"ipsum"、"dolor" and "default" in the original code.
+
 - Auto-extend width and scroll overflow
+
   If your distance of year is too long. It maybe will overflow the initial width.
 
 # License
