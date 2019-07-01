@@ -65,7 +65,7 @@ Your HTML file probable like it
 </html>
 ```
 
-![timesheetForDate](./example/images/timesheetForDate)
+![timesheetForDate](https://github.com/HiDana/timesheet_fordate.js/blob/master/example/images/timesheetForDate.png)
 
 ## Object Timesheet
 
@@ -101,10 +101,10 @@ If your date without day number it will start the first day of this month or thi
 example:
 
 if your date is start or end "2019/02" .The line will display "2019/02/01"
-![date only with year and month](./example/images/untilMonth)
+![date only with year and month](https://github.com/HiDana/timesheet_fordate.js/blob/master/example/images/untilMonth.png)
 
 if your date is start or end "2019" .The line will display "2019/01/01"
-![date only with](./example/images/untilYear)
+![date only with](https://github.com/HiDana/timesheet_fordate.js/blob/master/example/images/untilYear.png)
 
 ### date to date
 
