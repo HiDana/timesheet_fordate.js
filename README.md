@@ -1,12 +1,12 @@
-#timesheet for date
+# timesheet for date
 
 fork from GitHub repo [timesheet.js](https://github.com/sbstjn/timesheet.js)
 
-##codeing cause
+## codeing cause
 
 The repo [timesheet.js](https://github.com/sbstjn/timesheet.js)'s time is just support until a month. Therefore I satisfy the demand to modify some original js code.
 
-##how to use
+## how to use
 
 Reference original code
 You have to include `/dist/timesheet.min.js` and `./dist/timesheet.min.css` in your HTML and initialize it.
@@ -67,7 +67,7 @@ Your HTML file probable like it
 
 ![timesheetForDate](./example/images/timesheetForDate)
 
-##Object Timesheet
+## Object Timesheet
 
 ```
 new Timesheet(html's id(string), start year(number) , end year(number), [
@@ -94,7 +94,8 @@ new Timesheet("timesheet-default", 2014, 2025, [
 
 in timeSheet with have many types to display
 
-###note
+### note
+
 If your date without day number it will start the first day of this month or this year. But don't worry the info of date will display with your original date
 
 example:
@@ -105,77 +106,77 @@ if your date is start or end "2019/02" .The line will display "2019/02/01"
 if your date is start or end "2019" .The line will display "2019/01/01"
 ![date only with](./example/images/untilYear)
 
-###date to date
+### date to date
 
 ```
 ["2014/5/12", "2014/09/14", "date to date", "lorem"]
 ```
 
-###date to year
+### date to year
 
 ```
 ["2014/02/03", "2018", "date to year", "lorem"]
 ```
 
-###date to month
+### date to month
 
 ```
 ["2014/06/15", "2018/09", "date to month", "ipsum"]
 ```
 
-###month to year
+### month to year
 
 ```
 ["2018/01", "2019", "month to year", "lorem"]
 ```
 
-###month to month
+### month to month
 
 ```
 ["2018/10", "2019/01", "month to month", "dolor"]
 ```
 
-###month to date
+### month to date
 
 ```
 ["2014/12", "2018/05/16", "month to date", "lorem"]
 ```
 
-###year to year
+### year to year
 
 ```
 ["2016", "2018", "year to year", "dolor"]
 ```
 
-###year to month
+### year to month
 
 ```
 ["2016", "2018/05", "year to month", "ipsum"]
 ```
 
-###year to date
+### year to date
 
 ```
 ["2018", "2020/09/2", "year to date", "dolor"]
 ```
 
-###without end
+### without end
 
 ```
 ["2014/09", "without end date(until now)", "default"]
 ```
 
-##postscript
+## postscript
 
 Because the width of the month is very small. You would be not to see the obvious difference between month and date.
 
-##todo in the future
+## todo in the future
 
 - Support auto update category and different color
   We only have four categories "lorem"、"ipsum"、"dolor" and "default" in the original code.
 - Auto-extend width and scroll overflow
   If your distance of year is too long. It maybe will overflow the initial width.
 
-#License
+# License
 
 Timesheet_fordate.js is licensed under MIT License.
