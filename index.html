@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>timesheet for date</title>
+    <link rel="stylesheet" href="./dist/timesheet.min.css" />
+    <script type="text/javascript" src="./dist/timesheet.min.js"></script>
+  </head>
+  <body>
+    <div id="timesheet-default"></div>
+
+    <script>
+      new Timesheet("timesheet-default", 2014, 2025, [
+        ["2014/5/12", "2014/09/14", "date to date", "lorem"],
+        ["2014/02/03", "2018", "date to year", "lorem"],
+        ["2014/06/15", "2018/09", "date to month", "ipsum"],
+        ["2018/01", "2019", "month to year", "lorem"],
+        ["2018/10", "2019/01", "month to month", "dolor"],
+        ["2014/12", "2018/05/16", "month to date", "lorem"],
+        ["2016", "2018", "year to year", "dolor"],
+        ["2016", "2018/05", "year to month", "ipsum"],
+        ["2018", "2020/09/2", "year to date", "dolor"],
+        ["2014/09", "without end date(until now)", "default"]
+      ]);
+    </script>
+  </body>
+</html>
+
+<!-- [note] -->
+<!-- 如果沒有填滿都是以當月或當年 的 一號開始 -->
+
+<!-- [code]  -->
+<!-- 如果沒有分類的 default -->
